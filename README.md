@@ -4,8 +4,6 @@ Este es un proyecto de aplicación web full-stack que implementa un sistema comp
 
 Toda la aplicación está completamente containerizada utilizando **Docker** y **Docker Compose**, lo que permite un entorno de desarrollo y despliegue consistente y simplificado.
 
-![Captura de Pantalla de la App](https://i.imgur.com/9fLqZqg.png) <!-- Reemplaza esta URL con una captura de pantalla real de tu aplicación -->
-
 ---
 
 ## 🚀 Tecnologías Utilizadas
@@ -65,17 +63,39 @@ NEXT_PUBLIC_API_URL=http://localhost:8000
 ```
 ## 3. Construir y Levantar los Contenedores
 Desde la raíz del proyecto (donde se encuentra el archivo docker-compose.yml), ejecuta el siguiente comando:
+```bash
 docker-compose up --build
-
+```
 Este comando hará lo siguiente:
 
 Construirá la imagen de Docker para el backend de Go.
 
-Construirá la imagen de Docker para el frontend de Next.js..
+Construirá la imagen de Docker para el frontend de Next.js.
 
 Levantará los tres contenedores (frontend, backend y base de datos).
 
 Creará un volumen para persistir los datos de PostgreSQL.
+
+## 4. ¡Listo!
+Una vez que los contenedores estén en funcionamiento, puedes acceder a la aplicación:
+
+Frontend (Aplicación Web): http://localhost:3000
+
+Backend (API): http://localhost:8000
+
+## 📂Estructura del Proyecto
+
+```bash
+.
+├── backend/          # Código fuente de la API en Go (Gin Gonic)
+│   └── go.dockerfile
+├── frontend/         # Código fuente de la aplicación en Next.js
+│   ├── next.config.js
+│   └── Dockerfile
+└── docker-compose.yml  # Orquestador de los servicios de Docker
+```
+👤 Autor
+Julian Quimbayo Castro GitHub: @jaquimbayoc7
 
 
 
