@@ -68,13 +68,13 @@ docker-compose up --build
 ```
 Este comando hará lo siguiente:
 
-Construirá la imagen de Docker para el backend de Go.
+1. Construirá la imagen de Docker para el backend de Go.
 
-Construirá la imagen de Docker para el frontend de Next.js.
+2. Construirá la imagen de Docker para el frontend de Next.js.
 
-Levantará los tres contenedores (frontend, backend y base de datos).
+3. Levantará los tres contenedores (frontend, backend y base de datos).
 
-Creará un volumen para persistir los datos de PostgreSQL.
+4. Creará un volumen para persistir los datos de PostgreSQL.
 
 ## 4. ¡Listo!
 Una vez que los contenedores estén en funcionamiento, puedes acceder a la aplicación:
