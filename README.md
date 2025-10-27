@@ -12,8 +12,8 @@ Este proyecto integra un conjunto de tecnologías modernas para construir una ap
 
 | Área                | Tecnología                                                                                             |
 | ------------------- | ------------------------------------------------------------------------------------------------------ |
-| **Frontend**        | [**Next.js 14+**](https://nextjs.org/) (React), [**TypeScript**](https://www.typescriptlang.org/), [**Tailwind CSS**](https://tailwindcss.com/), [**Axios**](https://axios-http.com/) |
-| **Backend**         | [**Go (Golang)**](https://go.dev/) con el framework [**Gin Gonic**](https://gin-gonic.com/)              |
+| **Frontend**        | [**Next.js 16+**](https://nextjs.org/) (React), [**TypeScript**](https://www.typescriptlang.org/), [**Tailwind CSS**](https://tailwindcss.com/), [**Axios**](https://axios-http.com/) |
+| **Backend**         | [**Go (Golang)**](https://go.dev/) con el framework [**Mux**](https://github.com/gorilla/mux)              |
 | **Base de Datos**   | [**PostgreSQL**](https://www.postgresql.org/)                                                          |
 | **Containerización**| [**Docker**](https://www.docker.com/) y [**Docker Compose**](https://docs.docker.com/compose/)         |
 
